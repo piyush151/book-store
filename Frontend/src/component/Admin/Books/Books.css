@@ -1,0 +1,138 @@
+.book-grid{
+    margin-left: 50px; 
+     
+}
+
+.main-books{    
+ overflow: hidden;
+ margin-left: 250px;
+ 
+}
+
+.add-book{
+
+    margin-top: 80px;
+
+    width: 500px;
+    background-color:#EDEBD7;
+    border: 1px solid black;
+    border-radius:12px;
+     margin-left: 550px;
+   padding: 50px;
+}
+.edit-book{
+    margin-top: 80px;
+    width: 500px;
+    background-color:#F4F6F7;
+    
+    border: 1px solid black;
+     margin-left: 550px;
+   padding: 50px;
+}
+
+#add-book-btn{
+    margin-left: 50px;
+}
+
+
+.add-label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+  }​
+  input{
+    outline:red;
+ 
+  }
+  textarea{
+    outline:none;
+    width: 250px;
+    height: 55px;
+    margin-left: 12px;
+}
+  .cat-input{
+      margin-left: 12px;
+    width: 150px;
+    padding: 3px;   
+    outline: none;
+    /* background-color: #ECF0F1; */
+    color: #2C3E50;
+}
+
+#add-submit{
+    width: 100px;
+    padding: 2px;
+    margin-left: 50px;
+    outline: none;
+    display: inline;
+    color: white;
+    background-color: #1C54C6;
+    border-radius: 10px;
+}
+#add-submit:hover{
+    background-color: yellowgreen;
+}
+#show-cancel:hover{
+    background-color: #0ECCE5;
+}
+#show-cancel{
+    width: 100px;
+    padding: 2px;
+    margin-left: 15px;
+    outline: none;
+    display: inline;
+    color: white;
+    background-color: #1C54C6;
+    border-radius: 10px;
+}
+
+.error{
+    color: darkred;
+}
+#add-book-btn{
+    width: 100px;
+    height: 25px;
+    background-color: #1C54C6;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    outline: none;
+    cursor: pointer;
+}
+#add-book-btn:hover{
+    background-color: green;
+}
+
+#edit-submit{
+    width: 100px;
+    padding: 2px;
+    margin-left: 50px;
+    outline: none;
+    display: inline;
+    color: white;
+    background-color: #1C54C6;
+    border-radius: 10px;
+}
+#edit-submit:hover{
+    background-color: yellowgreen;
+}
+#edit-cancel-btn:hover{
+    background-color: #0ECCE5;
+}
+#edit-cancel-btn{
+    width: 100px;
+    padding: 2px;
+    margin-left: 15px;
+    outline: none;
+    display: inline;
+    color: white;
+    background-color: #1C54C6;
+    border-radius: 10px;
+}
+/* .error{
+    color: red;
+} */
+

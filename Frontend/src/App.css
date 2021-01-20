@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0; 
+  background: #E1E1D0;
+}
+.head{
+  border: 1px solid ;
+  width: 100%;
+  background-color: brown;
+  /* height: 50px; */
+  /* overflow: hidden; */
+   position: fixed; 
+ 
+  padding: 15px;
+}

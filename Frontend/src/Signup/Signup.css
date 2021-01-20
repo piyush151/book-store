@@ -1,0 +1,86 @@
+/* h1{
+    text-align: center;
+    color: cadetblue;
+    text-decoration: underline;
+} */
+.signup-title{
+    color:  #F7DC6F;
+    margin-left: 100px;
+}
+.signup{  
+    width: 340px;  
+    margin-top: 40px;
+    margin-left: 480px;
+    padding: 60px;  
+    background: #2E4053;  
+    border-radius: 15px;       
+}
+.signup-label{  
+    color: #F7F9F9;  
+    font-size: 17px;  
+} 
+input{
+    outline: none;
+}
+.signup-input{
+    width: 250px;  
+    height: 25px;  
+    border: none;  
+    border-radius: 3px;  
+   
+    padding-left: 8px;
+}
+.signup-textarea{
+    width: 250px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+
+}
+#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}
+#name{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    
+}
+#signup-button{
+    width: 250px;  
+    height: 25px;  
+    border: none;    
+    padding-left: 5px;  
+    outline: none;
+    color: rgb(7, 85, 65);  
+    font-size: 16px;
+}
+#signup-button:hover{
+    background-color: orange;
+    color: white;
+} 
+#login-link{
+    margin-left: 10px;
+    color: cornsilk;
+}
+#login-link-aft{
+    color: darkgreen;
+}
+.error{
+    color: #D8F903;
+}

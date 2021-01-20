@@ -1,0 +1,69 @@
+.main-category{
+    overflow: hidden;
+    margin-left: 250px;
+    /* float: right;
+     */
+     
+}
+#add-cat-btn{
+    width: 100px;
+    height: 25px;
+    background-color: #1C54C6;
+    color:white;
+    margin-top: 50px;
+    margin-bottom:10px;
+    margin-left: 300px;
+    outline: none;
+}
+#cat-input{
+    width: 180px;
+    padding: 3px;
+}
+.catgrid{
+    margin-left: 300px;
+    
+    outline: none;
+}
+.add-cat-sec{
+    margin-left:500px;
+    margin-top: 200px;
+    width:590px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #EDEBD7;
+}
+.edit-cat-sec{
+    margin-left:500px;
+    margin-top: 200px;
+    width:590px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #F4F6F7;
+}
+.submit-title{
+    width: 100px;
+    height: 25px;
+    background-color: #1C54C6;
+    color:white;
+    margin-top: 20px;
+    margin-left: 30px;
+    outline: none;
+}
+.submit-title:hover{
+    background-color: orange;
+    color:white;
+}
+#title-label{
+    font-size: 17px;
+}
+.side-links:hover{
+    color: white;
+}
+h1{
+    color: #EB984E;
+    margin-left:500px;
+}
+
+.error-msg{
+    color: crimson;
+}

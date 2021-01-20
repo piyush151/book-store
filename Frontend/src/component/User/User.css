@@ -1,0 +1,214 @@
+
+.main-user{
+overflow: hidden;
+margin-left: 250px;
+/* margin-top: 100px; */
+}
+
+/* .user-head{
+    position: fixed;
+     top: 0;
+        
+    width: 100vw;
+    
+    background-color: lightsalmon;
+} */
+
+.sidebar-main-user{
+    height: 100vh;
+    width: 250px;
+    float: left;
+    color: white;
+    background:  darkslategrey;
+    position: fixed;
+    z-index: 15;
+
+}
+.sidebar-content{
+    margin-left: 25px;
+}
+
+.head-sec{
+    width: 100%;
+    top: 0;
+    /* height: 35px; */
+    padding: 1px;
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+    position: sticky;
+}
+.app-name{
+    float: left;
+    color: goldenrod;
+    margin-left: 10px;
+
+}
+
+.book-container{
+    margin-top: 15px;
+    margin-left: 55px;
+    padding: 10px;
+    display: inline-block;
+    /* background-color: #C0DD64; */
+    background-color: white;
+    border: 1px solid white;
+    width: 170px;
+
+}
+book-lsec{
+ float: right;   
+    border: 1px solid white;
+    width: 100px;
+}
+
+.viewed-book{
+    margin: auto;
+    width: 60%;
+    padding: 25px;
+    border:1px solid white ;
+    background-color: rgba(186, 187, 133, 0.733);
+    text-align: left;
+  
+}
+#details{
+    color: blue;
+    cursor: pointer;
+}
+/* #add-to-cart{
+    margin-left: 15px;
+} */
+
+#view-cart{
+    text-decoration: underline;
+    color: #FB397C;
+    cursor: pointer;
+}
+.add-to-cart{
+    width: 100px;
+    /* padding: 2px; */
+    margin-left: 80px;
+    float: right;
+    outline: none;
+    color: white;
+    background-color: #85929E;
+    border-radius: 10px;
+}
+.add-to-cart:hover{
+    background-color: #F81858;
+}
+
+.side-cat{
+    cursor: pointer;
+    color:#F4F6F7;
+}
+
+.side-cat:hover{
+    color:#E74C3C;
+}
+.username{
+    margin-left: 10px;
+    color: #85C1E9;
+}
+#back{
+    width: 100px;
+    padding: 2px;
+    margin-left: 50px;
+    outline: none;
+    display: inline;
+    color: white;
+    background-color: #85929E;
+    border-radius: 10px;
+}
+#back:hover{
+    background-color:skyblue;
+}
+
+.viewed-book-content{
+    width: 60%; 
+    margin-left: 260px;  
+    margin-bottom: 25px;
+    padding: 15px;
+    /* background-color: white; */
+    
+}
+.front-cover{
+    float: left;
+    margin-top: 10px;
+}
+.front-cover img{
+    display: block
+}
+.popup-images{
+    width: 40%;
+    
+    margin-left: 400px;
+    margin-top: 70px;
+    padding: 50px 50px;
+    text-align: center;
+    
+    background-color: white;
+
+}
+.cross-btn{
+    position: absolute;
+    right: 0;
+    margin-right: 420px;
+    
+}
+
+.view-images{
+    color:blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.view-images:hover{
+    color: chocolate;
+}
+.back-arrow{
+    margin-left: 15px;
+    width: 10%;
+    background-color: #5D6D7E;
+    color: white;
+}
+.forward-arrow{
+    width: 10%;
+    /* padding: 2px; */
+    background-color: #5D6D7E;
+    color: white;
+}
+.close{
+    width: 100px;
+    height: 25px;
+    background-color:#CCD1D1;
+    color:white;
+    outline: none;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: limegreen;
+}
+
+.book-name{
+    color:#337CFF;
+    font-size:17px;
+    cursor: pointer;
+}
+.book-name:hover{
+    color: #FFC300;
+}
+.show-more-books{
+    margin-top: 30px; 
+    margin-left:15px;
+    background-color: #337CFF;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    outline: none;
+}
+
+
+.disable-btn{
+    color: #EAEDED;
+    
+}

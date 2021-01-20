@@ -1,0 +1,40 @@
+.links{    
+
+    margin: 80px;
+    text-align: center;
+    border: none;
+    
+}
+#wd{
+    float: right;
+    margin-right:600px ;
+    color: darkolivegreen;
+    overflow: hidden;
+    margin-left: 250px;
+}
+.title-head{
+    color: #F3C131;
+    /* margin-top: 75px; */
+}
+.sidebar-main{
+    /* height: 100vh;
+    width: 250px;
+    float: left;
+    color: white;
+    background:  darkslategrey; */
+    height: 100vh;
+    width: 250px;
+    float: left;
+    color: white;
+    background:  darkslategrey;
+    position: fixed;
+    
+}
+.side-links{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 40px;
+    display: block;
+    color: lightgreen;
+
+}
